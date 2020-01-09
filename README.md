@@ -2,14 +2,14 @@
 This project was created to obtain temperature from a sensor and send it to your own influxDB.
 
 
-## My choices are:
+## My choices are
 * As a core (CPU/network/power) I'm using an [Onion Omega 2+](https://onion.io/omega2/)
 * The sensor chosen is [BME280](https://store.ncd.io/product/bme280-digital-humidity-%c2%b13rh-pressure-and-temperature-sensor-i2c-mini-module/)
 * Scripting languages: bash and Python
 * Python script: [BME280.py](https://github.com/ControlEverythingCommunity/BME280/blob/master/Onion_Omega_Python/BME280.py) (also included in this repo)
 
 
-## Software requirements:
+## Software requirements
 * Python
 * curl
 * bzip2
@@ -28,6 +28,8 @@ This project was created to obtain temperature from a sensor and send it to your
 
 
 ### Crontab example
+You can edit the crontab with `crontab -e` command.
+
 ```
 */1 * * * * /path/to/script/save_data.sh
 */15 * * * * /path/to/script/send_data.sh
@@ -37,3 +39,8 @@ This project was created to obtain temperature from a sensor and send it to your
 * Have my own sensors and my own data server to protect my privacy and the rights over my data.
 * A way to filter this sensor from other sensors.
 * Battery usage is not solved, it is planned to use all time AC power.
+
+
+
+Enjoy the project :)
+I has a great results if you render the data in Grafana.
