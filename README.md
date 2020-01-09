@@ -26,6 +26,8 @@ This project was created to obtain temperature from a sensor and send it to your
 1. Configure `crontab` to execute `save_data.sh`.
 1. Configure `crontab` to execute `send_data.sh`. You can set this script every hour for few battery usage.
 
+
+### Crontab example
 ```
 */1 * * * * /path/to/script/save_data.sh
 */15 * * * * /path/to/script/send_data.sh
