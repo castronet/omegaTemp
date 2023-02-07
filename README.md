@@ -5,12 +5,12 @@ This project was created to obtain temperature from a sensor and send it to your
 ## My choices are
 * As a core (CPU/network/power) I'm using an [Onion Omega 2+](https://onion.io/omega2/)
 * The sensor chosen is [BME280](https://store.ncd.io/product/bme280-digital-humidity-%c2%b13rh-pressure-and-temperature-sensor-i2c-mini-module/)
-* Scripting languages: bash and Python
+* Scripting languages: sh and Python
 * Python script: [BME280.py](https://github.com/ControlEverythingCommunity/BME280/blob/master/Onion_Omega_Python/BME280.py) (also included in this repo)
 
 
 ## Software requirements
-* Python
+* Python2
 * curl
 * bzip2
 * sh
@@ -51,4 +51,5 @@ You can edit the crontab with `crontab -e` command.
 
 
 Enjoy the project :)
-I has a great results if you render the data in Grafana.
+
+The results are great if you render the data in Grafana.
