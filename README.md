@@ -18,12 +18,12 @@ This project was created to obtain temperature from a sensor and send it to your
 * Out of this scope: Your own and reachable Influxdb server.
 
 ### Install requirements
-``
+```
 opkg update
 opkg install python-light
 opkg install pyOnionI2C
 opkg install curl
-``
+```
 
 ## How to run the project?
 
